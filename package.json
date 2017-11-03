@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-swmansion",
+  "version": "1.0.0",
+  "description": "Software Mansion's ESLint config",
+  "main": "base.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "swmansion",
+    "software-mansion"
+  ],
+  "author": "Software Mansion (https://swmansion.com)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.10.0",
+    "prettier": "^1.7.4"
+  }
+}
