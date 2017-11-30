@@ -36,6 +36,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed', {
       'requireForBlockBody': false,
     }],
+    'arrow-body-style': ['off'],
     'function-paren-newline': ['off'],
     'object-curly-newline': ['error', {
       'ObjectExpression': { minProperties: 10, multiline: true, consistent: true },
@@ -68,10 +69,17 @@ module.exports = {
       'allowTernary': true,
       'allowTaggedTemplates': false,
     }],
+    'no-else-return': ['error', { 'allowElseIf': false }],
+    'no-return-assign': 'off',
 
     // react rules
     'react/jsx-closing-bracket-location': ['error', 'after-props'],
     'react/jsx-filename-extension': ['error', { 'extensions': ['.js', '.jsx'] }],
+    'react/no-unused-state': 'error',
+    'react/forbid-prop-types': 'off',
+    'react/prefer-stateless-function': 'off',
+    'react/prop-types': ['error', { 'ignore': ['children', 'className'] }],
+    'react/sort-comp': 'off', // TODO
 
     // jsx-a11y
     'jsx-a11y/no-static-element-interactions': ['off'],
@@ -79,6 +87,7 @@ module.exports = {
     // import rules
     'import/named': ['error'],
     'import/namespace': ['error'],
+    'import/prefer-default-export': ['warn'],
     'import/newline-after-import': ['error', {
       'count': 1,
     }],

@@ -12,13 +12,16 @@
   "author": "Software Mansion (https://swmansion.com)",
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "^8.0.1",
+    "babel-eslint": "^8.0.2",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.8.2",
+    "prettier-eslint": "^8.2.2"
   },
   "peerDependencies": {
     "eslint": "^4.10.0",
